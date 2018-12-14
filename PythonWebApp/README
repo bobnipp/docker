@@ -1,0 +1,7 @@
+
+Build:
+	docker build . -t <image-name>:latest
+
+Run:
+	docker run -p 80:80 <image-name>
+	browse to localhost 
